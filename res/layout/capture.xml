@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+    
+   <FrameLayout
+    android:id="@+id/camera_preview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    />
+   
+   <TextView 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="脸正对屏幕"
+       android:textSize="30sp"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textColor="@+color/white"
+       android:id="@+id/changeTitle"
+       />
+   
+
+       
+       <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/float_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        fab:fab_addButtonColorNormal="@color/white"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+  
+ <LinearLayout 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:gravity="center"
+      android:orientation="vertical"
+      >
+
+  <Button
+    android:id="@+id/button_capture"
+    android:text="@string/capture"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    />
+  
+  
+ </LinearLayout>
+
+ 
+</RelativeLayout>
