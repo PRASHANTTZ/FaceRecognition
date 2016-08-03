@@ -18,7 +18,7 @@ Using svm + HLBP for face recognition in Android platform
   
   Making a Asian Face DataSet by myself.
    
-  The dataset hava 80 files include 8 person.
+  The dataset hava 80 files include 5 person.
    
 ![](https://github.com/zhangqianhui/FaceRecognition/blob/master/image/face_example.png)
   
