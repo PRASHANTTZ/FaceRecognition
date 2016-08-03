@@ -2,7 +2,7 @@
 Using svm + HLBP for face recognition in Android platform
 #Dependencies
 
-[Opencv](http://opencv.org/)(for Android platform)
+[Opencv](http://opencv.org/)(Opencv 2.49 for Android platform)
 
 [libsvm](https://github.com/cjlin1/libsvm.git)
 
