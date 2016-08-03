@@ -20,13 +20,13 @@ Using svm + HLBP for face recognition in Android platform
    
   The dataset hava 80 files include 8 person.
    
-![https://github.com/zhangqianhui/FaceRecognition/blob/master/image/face_example.png]
+![](https://github.com/zhangqianhui/FaceRecognition/blob/master/image/face_example.png)
   
 #Experimenet
 
   Compared to Opencv's face recogniton algorithm!
   
-![https://github.com/zhangqianhui/FaceRecognition/blob/master/image/experminent.PNG]
+![](https://github.com/zhangqianhui/FaceRecognition/blob/master/image/experminent.PNG)
   
 
    
