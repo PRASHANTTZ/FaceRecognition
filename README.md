@@ -1,6 +1,6 @@
 # FaceRecognition
 Using svm + HLBP for face recognition in Android platform
-#Dependencies
+# Dependencies
 
 [Opencv](http://opencv.org/)(Opencv 2.49 for Android platform)
 
@@ -8,13 +8,13 @@ Using svm + HLBP for face recognition in Android platform
 
 [face++](http://www.faceplusplus.com.cn/)
 
-#Face recogniton Introduction
+# Face recogniton Introduction
 
-#MODULE：
+# MODULE：
   1.train the SVM in android platform.
   2.predict the result for a new face.
   
-#Data Setting:
+# Data Setting:
   
   Making a Asian Face DataSet by myself.
    
@@ -22,7 +22,7 @@ Using svm + HLBP for face recognition in Android platform
    
 ![](https://github.com/zhangqianhui/FaceRecognition/blob/master/image/face_example.png)
   
-#Experimenet
+# Experimenet
 
   Compared to Opencv's face recogniton algorithm!
   
